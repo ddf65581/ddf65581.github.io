@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <style>
+      body {
+        background-color: #333333;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+      }
+      
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      a {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border: 1px solid #b3b3b3;
+        border-radius: 12px;
+        background-color: #444444;
+        transition: background-color 0.2s;
+      }
+
+      a:hover {
+        background-color: #555555;
+      }
+    </style>
   </head>
+
   <body>
     <h1>lib</h1>
     <nav>
-      <a href="https://photos.google.com">google photo</a>
-      <a href="https://drive.google.com">google drive</a>
+      <a href="https://photos.google.com" target="_blank">google photo</a>
+      <a href="https://drive.google.com" target="_blank">google drive</a>
     </nav>
 
     <h1>social</h1>
     <nav>
-      <a href="https://instagram.com">instagram</a>
-      <a href="https://twitter.com">twitter</a>
+      <a href="https://instagram.com" target="_blank">instagram</a>
+      <a href="https://twitter.com" target="_blank">twitter</a>
     </nav>
     
     <h1>collect</h1>
     <nav>
-      <a href="https://docs.google.com/document/d/14vTUzveI8OBtTFNpW9Gjap1r42ObUO6ZQuuX3YoqM4w/edit?usp=sharing">telegrams</a>
-      <a href="https://fan-topia.com">com2star</a>
+      <a href="https://docs.google.com/document/d/14vTUzveI8OBtTFNpW9Gjap1r42ObUO6ZQuuX3YoqM4w/edit?usp=sharing" target="_blank">telegrams</a>
+      <a href="https://fan-topia.com" target="_blank">com2star</a>
     </nav>
 
     <h1>create</h1>
     <nav>
-      <a href="https://undress.app/edit">undress.app</a>
+      <a href="https://undress.app/edit" target="_blank">undress.app</a>
     </nav>
   </body>
 </html>
